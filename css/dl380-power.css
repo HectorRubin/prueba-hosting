@@ -1,0 +1,413 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 450px;
+}
+
+.hero{
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.603) 0%, rgba(194, 233, 251, 0.61) 100%), url("../fondo.jpg");
+    width: 100%;
+    height: 696px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-textos{
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    font-size: 50px;
+    color:#004861;
+    padding: 10px 10px;
+}
+
+.h2{
+    font-size: 40px;
+    color: #004861;
+
+}
+
+.cta{
+    background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:#fff ;
+    font-size: 27px;
+    text-decoration:none ;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.cta:hover{
+    background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:#fff ;
+    font-size: 27px;
+    text-decoration:none ;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container-producto{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-imagen-fuente{
+    width: 43%;
+}
+
+.container-informacion{
+    width: 43%;
+}
+
+.titulo-primario-producto{
+    font-size: 35px;
+    color:#000 ;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.titulo-secundario-producto{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contenido-producto{
+    font-size: 25px;
+    text-align: left;
+    color:#434343;
+    padding-top: 30px;
+}
+
+.precio-producto{
+    text-align: center;
+    padding-top: 30px;
+    background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:#fff ;
+    font-size: 25px;
+    text-decoration:none ;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.precio-producto:hover{
+    text-align: center;
+    padding-top: 30px;
+    background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color:#fff ;
+    font-size: 25px;
+    text-decoration:none ;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.imagen-fuente{
+    width:600px ;
+}
+
+.caja-beneficios{
+    height: 680px;
+    width: 100%;
+    background-color:#F8F8F8;
+
+}
+
+.titulo-beneficio{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.container-beneficios-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.caja1{
+    padding: 0px 20px 0px 20px;
+    width: 26%;
+    text-align: center;
+    box-shadow:0 0 3px rgba(0, 0, 0, .5);
+}
+
+.caja2{
+    padding: 0px 20px 0px 20px;
+    width: 26%;
+    text-align: center;
+    box-shadow:0 0 3px rgba(0, 0, 0, .5);
+}
+
+.caja3{
+    padding: 0px 20px 0px 20px;
+    width: 26%;
+    text-align: center;
+    box-shadow:0 0 3px rgba(0, 0, 0, .5);
+}
+
+.iconos-beneficios{
+    font-size: 130px;
+    text-align: center;
+    padding:35px 15px 30px 15px;
+    color: #fc4a1a;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.subtitulos-beneficios{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+}
+
+.textos-beneficios{
+    font-size: 18px;
+    text-align:justify;
+    padding-bottom: 15px;
+}
+
+.textos-entrega{
+    padding-top: 10px;
+    font-size: 23px;
+    color: #fc4a1a;
+}
+
+/**inservible**/
+
+
+
+/**inservible**/
+
+footer{
+    background: #4B79A1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+    width:100%;
+    height: 150px;
+    bottom: 0;
+    position: fixed;
+}
+
+footer .contacto{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.caja-footer{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.column1{
+    max-width: 44%;
+}
+
+.titulos-contacto{
+     padding-bottom: 5px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.titulos123{
+     padding-top: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.column2{
+    max-width: 44%;
+}
+
+.column1, p{
+     
+    
+}
+
+.icono-footer{
+    width: 30px;
+    height: 30px;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.links{
+     font-size: 20px;
+    text-decoration: none;
+    color:#fff;
+     
+}
+
+.iconos-footer{
+    font-size: 20px;
+     
+    
+}
+
+.titulos-contacto{
+    
+}
+
+.links:hover{
+    
+    text-decoration:underline;
+    color:#fff;
+}
+
+/**responsive**/
+
+@media screen and (max-width:800px){
+    .container-textos h1{
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .container-textos h2{
+        font-size: 30px;
+        text-align: center;
+        padding:10px 0px 10px 0px;
+    }
+
+    .cta{
+        font-size: 20px;
+    }
+
+    .cta:hover{
+        font-size: 20px;
+    }
+
+    .textos-entrega{
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+    }
+    .container-producto{
+        display: inline;
+        
+    }
+
+    .container-informacion{
+        width: 100%;
+    }
+    .imagen-fuente{
+        width: 350px;
+        padding-left: 20px;
+    }
+
+    .titulo-primario-producto{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .titulo-secundario-producto{
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .contenido-producto{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .precio-producto{
+        
+    }
+
+    .titulo-beneficio{
+        font-size: 30px;
+        padding: 30px 0px 30px 0px ;
+    }
+
+    .container-beneficios-galeria{
+        display:flex;
+    }
+
+    .caja1{
+        width: 75%;
+        margin-bottom: 25px;
+        transform: scale(1);
+        transition: transform 0.6s;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    }
+
+    .caja2{
+        width: 75%;
+        margin-bottom: 25px;
+        transform: scale(1);
+        transition: transform 0.6s;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    }
+
+    .caja3{
+        width: 75%;
+        margin-bottom: 25px;
+        transform: scale(1);
+        transition: transform 0.6s;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    }
+
+    //*Hover-cards*//
+
+    .caja1{
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        transform: scale(1.03);
+        cursor: pointer;
+    }
+
+    .caja-beneficios{
+        height: 1300px;
+    }
+
+    .column2{
+        display: none;
+    }
+
+    .container-imagen-fuente{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .column1{
+        max-width: 100%;
+    }
